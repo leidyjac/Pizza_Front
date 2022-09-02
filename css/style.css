@@ -1,0 +1,114 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #E5E5E5;
+}
+
+header {
+    width: 1024px;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+}
+
+header nav a{
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    height: 400px;
+    justify-content: center;
+    margin: 20px;
+}
+
+.delivery{
+    background-image:url("../img/delivery.jpg");
+    background-repeat: no-repeat;
+    width: 490px;
+    height: 350px;
+    margin-right: 20px;
+    margin-left: -10px;
+}
+
+h1{
+    text-align: left;
+    padding: 20px;
+    font-weight: 700;
+}
+
+.enviopizzas{
+    color:red;
+}
+
+.comprando{
+    color:white;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: white;
+    width: 490px;
+    height: 350px;
+}
+
+h2{
+    text-align: center;
+    color: red;
+    margin-top: 25px;
+    
+}
+ol{
+    align-self: flex-start;
+    margin-top: 70px;
+    margin-left: 50px;
+    }
+
+li{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+section img{
+    position: absolute;
+    top:150px;
+    left: 320px;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1024px;
+    height: 150px;
+    background: #222222;
+}
+footer nav{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+
+}
+footer nav a{
+    color: white;
+    text-decoration: none;
+    line-height: 26px;
+}
+footer img{
+    margin: 40px;
+}
